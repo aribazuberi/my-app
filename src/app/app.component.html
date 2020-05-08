@@ -1,0 +1,15 @@
+<div><h1>Angular JS Calculator</h1></div>
+<div>
+  <input type="text" [(ngModel)]='data1'/>
+  <label>{{operator}}</label>
+  <input type="text" [(ngModel)]='data2'/>
+  <label>{{eq}}</label>
+  <input type="text" [(ngModel)]='data'/>
+</div>
+<div>
+  <button (click)='add()'>+</button>
+  <button (click)='sub()'>-</button>
+  <button (click)='mul()'>*</button>
+  <button (click)='did()'>/</button>
+  <button (click)='clr()'>Clear</button>
+</div>
